@@ -35,7 +35,7 @@ class ViewController: UIViewController {
     }
     
     func updateDiceImages() {
-        // casting from unsigned int to int; randomizes from 0 to 6-1, or 5
+        // casts from unsigned int to int; randomizes from 0 to 6-1, or 5
         randomDiceIndex1 = Int(arc4random_uniform(6))
         randomDiceIndex2 = Int(arc4random_uniform(6))
         
